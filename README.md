@@ -203,5 +203,10 @@ D FLIP FLOP:
 
 ![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/d7aa74b0-8634-43aa-b7d1-31779ace3ca9)
 
+T FLIP-FLOP:
+
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/1f134c4d-34b7-4692-a51a-9f6ecb27fdb8)
+
+
 ### RESULTS 
 Thus, the program for flipflops is implemented and its functional table is successfully verified in quartus using Verilog programming.
