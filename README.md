@@ -156,6 +156,7 @@ endmodule
 
 T FLIP FLOP:
 
+
 module TF(T,clk,Q,Qbar);
 input T,clk;
 output Q,Qbar;
