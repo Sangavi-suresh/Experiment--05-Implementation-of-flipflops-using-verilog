@@ -193,15 +193,18 @@ T FLIP FLOP:
 
 SR FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/f8de12b1-9736-417c-89f0-bf071dee9df4)
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/ec48fab1-bdf6-4371-abb1-2be4808ea30c)
+
 
 JK FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/a9367e17-12e9-49de-95bc-e6368f96968f)
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/fd9a1703-5eea-47d7-be00-b1a52f0f7457)
+
 
 D FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/d7aa74b0-8634-43aa-b7d1-31779ace3ca9)
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/102cf110-7154-4d13-80e2-367ad88d5d2c)
+
 
 T FLIP-FLOP:
 
