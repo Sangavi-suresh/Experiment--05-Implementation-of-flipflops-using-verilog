@@ -117,7 +117,7 @@ Developed by: Sangavi Suresh
 RegisterNumber:  212222230130
 
 SR FLIP FLOP:
-"
+```
 module SR(S,R,clk,Q,Qbar);
 input S,R,clk;
 output Q,Qbar;
@@ -127,9 +127,9 @@ nand (Y,R,clk);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
 endmodule
-"
+```
 JK FLIP FLOP: 
-"
+```
 module JK(J,K,clk,Q,Qbar);
 input J,K,clk;
 output Q,Qbar;
@@ -139,9 +139,9 @@ nand (Y,K,clk,Q);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
 endmodule
-"
+```
 D FLIP FLOP:
-"
+```
 module DF(D,clk,Q,Qbar);
 input D,clk;
 output Q,Qbar;
@@ -152,10 +152,10 @@ nand (Y,Dbar,clk);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
 endmodule
-"
+```
 
 T FLIP FLOP:
-"
+```
 module TF(T,clk,Q,Qbar);
 input T,clk;
 output Q,Qbar;
@@ -165,7 +165,7 @@ nand (R,T,clk,Q);
 nand (Q,S,Qbar);
 nand (Qbar,R,Q);
 endmodule
-"
+```
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
