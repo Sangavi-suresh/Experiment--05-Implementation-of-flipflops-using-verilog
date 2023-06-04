@@ -187,40 +187,33 @@ SR FLIP FLOP:
 
 JK FLIP FLOP:
 
-
-
-
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/d7f82ccc-f09c-4292-b46d-dd9495557e2a)
 
 D FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/c9fcc823-3ed8-4ad2-969d-a3328507ed87)
-
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/5ea0fbad-92d2-411a-921d-ebbeb538e82b)
 
 T FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/609407a8-972a-4bdd-8107-d586156a825f)
-
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/6ea26ded-0146-4c74-a6c1-c681904f4e10)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
 SR FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/ec48fab1-bdf6-4371-abb1-2be4808ea30c)
-
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/80132327-65ff-40dc-8cdf-ecc241ea24fe)
 
 JK FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/fd9a1703-5eea-47d7-be00-b1a52f0f7457)
-
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/5d713d55-8cea-4345-ba1f-158e3b85f58c)
 
 D FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/102cf110-7154-4d13-80e2-367ad88d5d2c)
-
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/3a14b16d-12b1-45b1-ab66-c57ef105686f)
 
 T FLIP-FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/1f134c4d-34b7-4692-a51a-9f6ecb27fdb8)
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/3adfff1a-549d-4ae2-894d-57248abf3255)
 
 
 ### RESULTS 
