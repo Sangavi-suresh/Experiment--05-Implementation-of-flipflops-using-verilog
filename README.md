@@ -116,67 +116,79 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: Sangavi Suresh
 RegisterNumber:  212222230130
 
-SR FLIP FLOP:
+SR FLIPFLOP
 ```
-module SR(S,R,clk,Q,Qbar);
-input S,R,clk;
-output Q,Qbar;
-wire X,Y;
-nand (X,S,clk);
-nand (Y,R,clk);
-nand (Q,X,Qbar);
-nand (Qbar,Y,Q);
-endmodule
+module sr(S,R,clk,Q,Qbar);
+	input S,R,clk;
+	output reg Q;
+	output reg Qbar;
+	initial Q=0;
+	initial Qbar=1;
+	always @(posedge clk)
+	begin
+	Q=S|((~R)&Q);
+	Qbar=R|((~S)&(Qbar));
+	end
+	endmodule
+ ```
+ 
+JK FLIPFLOP
 ```
-JK FLIP FLOP: 
-```
-module JK(J,K,clk,Q,Qbar);
+module jk(J,K,clk,Q,Qbar);
 input J,K,clk;
-output Q,Qbar;
-wire X,Y;
-nand (X,J,clk,Qbar);
-nand (Y,K,clk,Q);
-nand (Q,X,Qbar);
-nand (Qbar,Y,Q);
-endmodule
-```
-D FLIP FLOP:
-```
-module DF(D,clk,Q,Qbar);
-input D,clk;
-output Q,Qbar;
-assign Dbar=~D;
-wire X,Y;
-nand (X,D,clk);
-nand (Y,Dbar,clk);
-nand (Q,X,Qbar);
-nand (Qbar,Y,Q);
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(J&(~Q))|((~K)&Q);
+Qbar=((~J)&(Qbar))|K&(~Qbar);
+end
 endmodule
 ```
 
-T FLIP FLOP:
+T FLIPFLOP
 ```
-module TF(T,clk,Q,Qbar);
+module t(T,clk,Q,Qbar);
 input T,clk;
-output Q,Qbar;
-wire S,R;
-nand (S,T,clk,Qbar);
-nand (R,T,clk,Q);
-nand (Q,S,Qbar);
-nand (Qbar,R,Q);
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(T&(~Q))|((~T)&Q);
+Qbar=((~T)&Qbar)|(T&(~Qbar));
+end
 endmodule
 ```
 
+D FLIPFLOP
+```
+module d(D,clk,Q,Qbar);
+input D,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=D;
+Qbar=~D;
+end
+endmodule
+```
 ### RTL LOGIC FOR FLIPFLOPS 
 
 SR FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/d1a90ffe-0030-4aed-81f4-be3bac7d8482)
-
+![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/bf8e46f1-57c2-495c-9c44-4a946ca9f100)
 
 JK FLIP FLOP:
 
-![image](https://github.com/Sangavi-suresh/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118541861/1fea719a-aa5e-4257-90bc-79ec3c9c86e2)
+
+
 
 
 D FLIP FLOP:
